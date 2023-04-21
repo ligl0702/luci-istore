@@ -22,7 +22,7 @@ jobs:
 
       - name: Determine branch name
         run: |
-          BRANCH="master"
+          BRANCH="main"
           echo "Building for $BRANCH"
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
 
